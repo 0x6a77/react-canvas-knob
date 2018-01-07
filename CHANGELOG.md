@@ -1,3 +1,6 @@
+# 0.6.0
+* Port to react-hot-loader
+
 # 0.5.0
 * HiDPI scaling support
 * Changing the width/height props after mount now updates the component

@@ -16,10 +16,6 @@ var _react2 = require('react');
 
 var _react3 = _interopRequireDefault(_react2);
 
-var _reactTransformHmr3 = require('react-transform-hmr');
-
-var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _class, _temp;
@@ -42,13 +38,6 @@ var _components = {
   }
 };
 
-var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-  filename: 'Knob.js',
-  components: _components,
-  locals: [module],
-  imports: [_react3.default]
-});
-
 var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
   filename: 'Knob.js',
   components: _components,
@@ -58,7 +47,7 @@ var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
 
 function _wrapComponent(id) {
   return function (Component) {
-    return _reactTransformHmr2(_reactTransformCatchErrors2(Component, id), id);
+    return _reactTransformCatchErrors2(Component, id);
   };
 }
 

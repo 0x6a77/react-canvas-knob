@@ -41,9 +41,6 @@
     "eslint-plugin-react": "^7.20.0",
     "html-webpack-plugin": "^4.3.0",
     "html-webpack-template": "^6.2.0",
-    "react-dom": "^16.13.1",
-    "react-transform-catch-errors": "^1.0.2",
-    "redbox-react": "^1.6.0",
     "webpack": "^4.43.0",
     "webpack-dev-server": "^3.11.0"
   },
@@ -51,6 +48,9 @@
     "react": "^16.13.1"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "react-dom": "^16.13.1",
+    "react-transform-catch-errors": "^1.0.2",
+    "redbox-react": "^1.6.0"
   }
 }

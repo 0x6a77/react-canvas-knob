@@ -8,7 +8,7 @@
     "babel": "node_modules/babel-cli/lib/babel/index.js Knob.js -o index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git@github.com:addrobots/react-canvas-knob.git",
+  "repository": "git@github.com:0x6a77/react-canvas-knob.git",
   "keywords": [
     "react",
     "canvas",
